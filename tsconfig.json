@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "@core/*": ["packages/core/src/*"],
+      "@react-adapter/*": ["packages/react-adapter/src/*"],
+      "@vue-adapter/*": ["packages/vue-adapter/src/*"],
+      "@angular-adapter/*": ["packages/angular-adapter/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["packages/*/src"]
+}
